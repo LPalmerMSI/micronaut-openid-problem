@@ -1,6 +1,7 @@
 micronaut:
   application:
     name: micronautguide
+  
 #tag::oauth2[]
 ---
 micronaut:
@@ -17,3 +18,15 @@ micronaut:
       logout:
         get-allowed: true # <6>
 #end::oauth2[]
+
+
+microanut:
+  endpoints:
+    all:
+      enabled: true
+      sensitive: false
+    env:
+      enabled: true
+      sensitive: false
+    
+
