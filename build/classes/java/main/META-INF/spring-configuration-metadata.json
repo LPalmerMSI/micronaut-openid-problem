@@ -1,0 +1,1 @@
+{"groups":[{"name":"app","type":"example.micronaut.ApplicationConfigurationProperties"}],"properties":[{"name":"app.hosted-domain","type":"java.lang.String","sourceType":"example.micronaut.ApplicationConfigurationProperties"},{"name":"app.hosted-domain","type":"java.lang.String","sourceType":"example.micronaut.ApplicationConfigurationProperties"}]}

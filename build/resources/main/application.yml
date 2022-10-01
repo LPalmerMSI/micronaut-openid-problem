@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: micronautguide
+#tag::oauth2[]
+---
+micronaut:
+  security:
+    authentication: idtoken # <1>
+    oauth2:
+      clients:
+        google: # <2>
+          client-id: 'blackbird-dev'  # <3>
+          client-secret: '24ce3612-1514-4f7d-b8cf-e28071d67780' # <4>
+          openid:
+            issuer: 'http://localhost:28080/auth/realms/master' # <5>
+    endpoints:
+      logout:
+        get-allowed: true # <6>
+#end::oauth2[]
